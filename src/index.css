@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,48 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+Main {
+  min-height: 100%;
+  margin: 0 auto -60px;
+  background-color: #ccff66;
+}
+
+.top-logo{
+  max-width: 100%;
+  background-color: #ccff66;
+}
+
+.top-logo p{
+  margin-top: 0;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer {
+  background-image: url("../src/img/trim-green.png");
+}
+
+.footer{
+  padding: 20px 10px 0px 0; 
+  height: 60px;
+  background-color: #2a363b;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  text-align: right;
+}
+
+p.foot {
+  display: inline;
+  color: #fff;
+  font-weight: 900;
+  font-family: september, sans-serif;
+}
+
+span.footl {
+  color: #fffcdd;
+  font-family: september, sans-serif;
+  float: left;
 }
