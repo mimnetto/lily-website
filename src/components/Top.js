@@ -1,12 +1,9 @@
 import React from "react";
-import Lily from "./Lily";
 
 const Top = () => (
-  <><div className="top">
+  <><div className="footer">
         <p></p>
-    </div>
-    <div className="green"><Lily/></div>
-        </>
+    </div><div className="top-logo"><p>.</p></div></>
 );
 
 export default Top;
