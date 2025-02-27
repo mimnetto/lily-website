@@ -1,12 +1,20 @@
+@import url("https://use.typekit.net/fls4kmy.css");
+
 body {
-  margin: 0;
-  height: 100%;
+	margin:0;
+	padding:0;
+	height:100%;
+	width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@-ms-viewport{
+  width: device-width;
+ }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
@@ -15,8 +23,6 @@ code {
 
 Main {
   min-height: 100%;
-  margin: 0 auto -60px;
-  background-color: #ccff66;
 }
 
 .top-logo{
@@ -30,13 +36,40 @@ Main {
   padding: 20px;
 }
 
+img.lily-logo{
+  max-width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.top {
+  background-image: url("../src/img/trim-green.png");
+}
+
+.top{
+  padding: 20px 10px 0px 0; 
+  height: 50px;
+  background-color: #2a363b;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  text-align: right;
+}
+
+.green {
+  background-color: #ccff66;
+  padding: 2%;
+}
+
 .footer {
   background-image: url("../src/img/trim-green.png");
 }
 
 .footer{
   padding: 20px 10px 0px 0; 
-  height: 60px;
+  height: 50px;
   background-color: #2a363b;
   bottom: 0;
   left: 0;
@@ -48,11 +81,38 @@ p.foot {
   display: inline;
   color: #fff;
   font-weight: 900;
-  font-family: september, sans-serif;
+  font-family: "urbana", sans-serif;
+  font-size: 28px;
+  text-shadow: 2px 2px 2px #000;
 }
 
-span.footl {
-  color: #fffcdd;
-  font-family: september, sans-serif;
-  float: left;
+.content{
+  margin: auto;
+  width: 50%;
+  padding: 0% 5% 0% 5%;
+  font-family: "urbana", sans-serif;
+  font-size: 18px;
+  margin-bottom: 5%;
+}
+
+p.hithere{
+  font-size: 28px;
+}
+
+ul.a {
+  list-style-type: circle;
+}
+
+.center {  margin: auto;
+  width: 50%;
+}
+
+.big-icon {
+  font-size: 48px;
+  margin-right: 50px;
+}
+
+.med-icon {
+  font-size: 40px;
+  margin-right: 50px;
 }
