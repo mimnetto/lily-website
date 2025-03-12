@@ -23,6 +23,7 @@ code {
 
 Main {
   min-height: 100%;
+  margin-bottom: 5%;
 }
 
 .top-logo{
@@ -68,7 +69,7 @@ img.lily-logo{
 }
 
 .footer{
-  padding: 20px 10px 0px 0; 
+  padding: 0px 10px 0px 0; 
   height: 50px;
   background-color: #2a363b;
   bottom: 0;
@@ -88,11 +89,10 @@ p.foot {
 
 .content{
   margin: auto;
-  width: 50%;
-  padding: 0% 5% 0% 5%;
+  width: 80%;
+  padding: 0% 5% 5% 5%;
   font-family: "urbana", sans-serif;
   font-size: 18px;
-  margin-bottom: 5%;
 }
 
 p.hithere{
@@ -109,10 +109,38 @@ ul.a {
 
 .big-icon {
   font-size: 48px;
-  margin-right: 50px;
 }
 
 .med-icon {
   font-size: 40px;
   margin-right: 50px;
+}
+ .container {
+  max-width: 500px;
+ }
+
+ p.Skill-Name {
+  font-size: 12pt;
+  text-align: center;
+}
+
+div.row {
+  margin-right: 0px;
+  margin-left: 0px;
+  padding-top: 1%;
+}
+
+div.Pad-Icons {
+      padding: 1% 0 0 0;
+}
+
+a.Link-Text {
+  color: #27401a;
+  font-size: 12pt;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+a.Link-Text:hover {
+  color: var(--grey);
+  text-decoration: underline;
 }

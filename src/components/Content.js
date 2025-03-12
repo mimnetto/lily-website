@@ -14,8 +14,6 @@ const Content = () => (
 <li>Drop me a line via e-mail, if you’d like to work together or just get connected</li>
 </ul>
 <p>Thanks for stopping by!</p>
-<div className="center"><p><CiLinkedin className="big-icon" /><FaRegFilePdf className="med-icon" /><CiMail className="big-icon" /></p>
-</div>
     </div>
         </>
 );
