@@ -38,11 +38,11 @@ Main {
 }
 
 img.lily-logo{
-  max-width: 35%;
+  /* max-width: 35%; */
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 70%;
 }
 
 .top {
@@ -90,7 +90,7 @@ p.foot {
 .content{
   margin: auto;
   width: 80%;
-  padding: 0% 5% 5% 5%;
+  padding: 5% 5% 5% 5%;
   font-family: "urbana", sans-serif;
   font-size: 18px;
 }
@@ -137,7 +137,6 @@ div.Pad-Icons {
 a.Link-Text {
   color: #27401a;
   font-size: 12pt;
-  letter-spacing: 1px;
   text-decoration: none;
 }
 a.Link-Text:hover {
