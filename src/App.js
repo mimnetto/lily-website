@@ -3,6 +3,7 @@ import Top from "./components/Top";
 import Content from "./components/Content";
 import LilyLinks from "./components/Links";
 import Footer from "./components/Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 function App() {

@@ -38,11 +38,17 @@ Main {
 }
 
 img.lily-logo{
-  /* max-width: 35%; */
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 70%;
+  @media only screen and (min-width: 632px) {
+    max-width: 35%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
 }
 
 .top {
@@ -93,6 +99,10 @@ p.foot {
   padding: 5% 5% 5% 5%;
   font-family: "urbana", sans-serif;
   font-size: 18px;
+  @media only screen and (min-width: 632px) {
+    padding: 2% 2% 2% 2%;
+    width: 50%;
+  }
 }
 
 p.hithere{
@@ -143,3 +153,4 @@ a.Link-Text:hover {
   color: var(--grey);
   text-decoration: underline;
 }
+
