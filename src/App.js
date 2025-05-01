@@ -1,4 +1,5 @@
 import React, { Component }  from 'react';
+import Border from './components/Border';
 import Top from "./components/Top";
 import Content from "./components/Content";
 import LilyLinks from "./components/Links";
@@ -10,6 +11,7 @@ function App() {
   return (
     <div className="App">
       <main className="App-main">
+      <Border />
       <Top/>
       <header className="App-header">
       </header>
