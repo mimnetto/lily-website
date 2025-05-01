@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/lily-website/static/css/main.f304b9ef.css",
+    "main.js": "/lily-website/static/js/main.d52b523a.js",
+    "static/js/453.2f11e9eb.chunk.js": "/lily-website/static/js/453.2f11e9eb.chunk.js",
+    "static/media/Portfolio25.pdf": "/lily-website/static/media/Portfolio25.d0c64d57836ba1df2db5.pdf",
+    "static/media/lily-top-img.png": "/lily-website/static/media/lily-top-img.6f1e88e344101f1dcc7f.png",
+    "static/media/trim-green.png": "/lily-website/static/media/trim-green.e39a3576d2a3019211ea.png",
+    "index.html": "/lily-website/index.html",
+    "main.f304b9ef.css.map": "/lily-website/static/css/main.f304b9ef.css.map",
+    "main.d52b523a.js.map": "/lily-website/static/js/main.d52b523a.js.map",
+    "453.2f11e9eb.chunk.js.map": "/lily-website/static/js/453.2f11e9eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f304b9ef.css",
+    "static/js/main.d52b523a.js"
+  ]
+}
