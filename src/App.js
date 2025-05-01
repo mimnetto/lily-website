@@ -1,6 +1,5 @@
 import React, { Component }  from 'react';
 import Border from './components/Border';
-import Top from "./components/Top";
 import Content from "./components/Content";
 import Footer from "./components/Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -11,9 +10,6 @@ function App() {
     <div className="App">
       <Border />
       <main className="App-main">
-      <Top/>
-      <header className="App-header">
-      </header>
       <Content/>
       </main>
       <Footer/>
