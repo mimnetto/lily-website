@@ -1,5 +1,6 @@
 import React from "react";
 import Pdf from './Portfolio25.pdf';
+import LilyLinks from "./Links";
 
 const Content = () => (
   <><div className="content">
@@ -14,6 +15,7 @@ const Content = () => (
 </ul>
 <p>Thanks for stopping by!</p>
     </div>
+    <LilyLinks/>
         </>
 );
 
