@@ -1,4 +1,3 @@
-import React, { Component }  from 'react';
 import Border from './components/Border';
 import Content from "./components/Content";
 import Footer from "./components/Footer";
