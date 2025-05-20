@@ -3,7 +3,8 @@ import LilyLinks from "./Links";
 import Pdf from './Portfolio25.pdf';
 
 const Intro = () => (
-  <><div className="content">
+  <><div className="justify-content-md-center contentdesk">
+    <div>
         <p className="hithere">Hi there!</p>
         <p>I’m Lily, a Creative Professional specializing in toy design and illustration based in Cranston, RI.</p>
 
@@ -14,7 +15,10 @@ const Intro = () => (
 <li>Drop me a line <a className="Link-Text" href="mailto:someone@example.com">via e-mail</a>, if you’d like to work together or just get connected</li>
 </ul>
 <p>Thanks for stopping by!</p>
-    <LilyLinks />
+</div>
+    <div>
+          <LilyLinks/>
+    </div>
     </div>
         </>
 );
