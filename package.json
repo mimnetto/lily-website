@@ -1,6 +1,7 @@
 {
   "name": "lily-website",
   "version": "0.1.0",
+  "main": "src/index.js",
   "homepage": "https://mimnetto.github.io/lily-website",
   "private": true,
   "dependencies": {
