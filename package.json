@@ -1,7 +1,7 @@
 {
   "name": "lily-website",
   "version": "0.1.0",
-  "homepage": "https://mimnetto.github.io/lily-website/",
+  "homepage": "https://mimnetto.github.io/lily-website",
   "private": true,
   "dependencies": {
     "@slalombuild/react-mailto": "^0.2.7",
