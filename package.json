@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://mimnetto.github.io/",
   "private": true,
+  "main": "src/index.js",
   "dependencies": {
     "@slalombuild/react-mailto": "^0.2.7",
     "@tailwindcss/vite": "^4.1.7",
