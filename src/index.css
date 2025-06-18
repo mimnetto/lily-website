@@ -155,7 +155,7 @@ ul.a {
 
 
 div.row{
-    margin-right: 50px;
+    /* margin-right: 50px; */
   margin-left: 0px;
   padding-top: 1%;
   @media only screen and (min-width: 768px) {
