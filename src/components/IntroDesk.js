@@ -1,6 +1,5 @@
 import React from "react";
 import LilyLinks from "./Links";
-import Pdf from './Portfolio25.pdf';
 
 const Intro = () => (
   <><div className="justify-content-md-center contentdesk">
@@ -10,9 +9,9 @@ const Intro = () => (
 
 <p>Welcome to my website! While you’re here feel free to:</p>
 <ul className="a">
-<li><a className="Link-Text" href={Pdf} target="_blank" rel="noreferrer">Download my Portfolio .pdf</a> and get a snapshot of my process, projects and skills</li>
-<li>View my professional credentials on <a className="Link-Text" href="https://www.linkedin.com/in/lily-damota-8488aa3b/" target="_blank" rel="noreferrer">LinkedIn</a></li>
-<li>Drop me a line <a className="Link-Text" href="mailto:someone@example.com">via e-mail</a>, if you’d like to work together or just get connected</li>
+<li>Download my Portfolio .pdf and get a snapshot of my process, projects and skills</li>
+<li>View my professional credentials on LinkedIn</li>
+<li>Drop me a line via e-mail, if you’d like to work together or just get connected</li>
 </ul>
 <p>Thanks for stopping by!</p>
 </div>

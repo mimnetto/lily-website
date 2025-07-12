@@ -4,14 +4,14 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
-function DesktopView() {
+function TabletView() {
   return (
     <Container>
       <Row>
-        <Col>
+        <Col sm={6}>
           <IntroDesk />
         </Col>
-        <Col md={8}>
+        <Col sm={6}>
         <GreenDesk/>
         </Col>
       </Row>
@@ -19,4 +19,4 @@ function DesktopView() {
   );
 }
 
-export default DesktopView;
+export default TabletView;

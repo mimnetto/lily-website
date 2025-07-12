@@ -2,6 +2,7 @@ import { useMediaQuery } from 'react-responsive'
 import DesktopView from './DesktopView';
 import MobileView from './MobileView';
 
+
 const Desktop = ({ children }) => {
   const isDesktop = useMediaQuery({ minWidth: 992 })
   return isDesktop ? children : null
