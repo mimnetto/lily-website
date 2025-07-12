@@ -13,7 +13,7 @@ const Intro = () => (
 <li>View my professional credentials on LinkedIn</li>
 <li>Drop me a line via e-mail, if you’d like to work together or just get connected</li>
 </ul>
-<p>Thanks for stopping by!</p>
+<p className="bottom">Thanks for stopping by!</p>
 </div>
     <div>
           <LilyLinks/>
